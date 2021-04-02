@@ -1,2 +1,2 @@
 # schedules-pyTeleBot
-https://t.me/KitzNauBot
+# https://t.me/KitzNauBot
