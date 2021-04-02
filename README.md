@@ -1,3 +1,3 @@
 # schedules-pyTeleBot
 https://t.me/KitzNauBot
-<img src="AnimatedSticker.tgs">
+<img src="review.gif">
