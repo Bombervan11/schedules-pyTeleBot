@@ -33,16 +33,16 @@ def lalala(message):
         if message.text == 'Понеділок󠀠':
             markup = types.InlineKeyboardMarkup(row_width=3)
             item1 = types.InlineKeyboardButton("1             ", callback_data='1')
-            item2 = types.InlineKeyboardButton("Осн.інжен.ПЗ", callback_data='bad')
+            item2 = types.InlineKeyboardButton("Осн.інжен.ПЗ", callback_data='PZ')
             item3 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/fm4xzjus75?authuser=2&hs=179')
             item4 = types.InlineKeyboardButton("2             ", callback_data='2')
-            item5 = types.InlineKeyboardButton("Осн.інжен.ПЗ", callback_data='bad')
+            item5 = types.InlineKeyboardButton("Осн.інжен.ПЗ", callback_data='PZ')
             item6 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/fm4xzjus75?authuser=2&hs=179')
             item7 = types.InlineKeyboardButton("3             ", callback_data='3')
-            item8 = types.InlineKeyboardButton("Мат. аналіз", callback_data='bad')
+            item8 = types.InlineKeyboardButton("Мат. аналіз", callback_data='matan')
             item9 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/fm4xzjus75?authuser=2&hs=179')
             item10 = types.InlineKeyboardButton("4             ", callback_data='4')
-            item11 = types.InlineKeyboardButton("Математика", callback_data='bad')
+            item11 = types.InlineKeyboardButton("Математика", callback_data='mat')
             item12 = types.InlineKeyboardButton("-", callback_data='bad')
            
             markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12)
@@ -53,16 +53,16 @@ def lalala(message):
 
             markup = types.InlineKeyboardMarkup(row_width=3)
             item1 = types.InlineKeyboardButton("1             ", callback_data='1')
-            item2 = types.InlineKeyboardButton("Лін. Алгебра", callback_data='bad')
+            item2 = types.InlineKeyboardButton("Лін. Алгебра", callback_data='linalg')
             item3 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/fwg46qyriw?authuser=2&hs=179')
             item4 = types.InlineKeyboardButton("2             ", callback_data='2')
             item5 = types.InlineKeyboardButton("Лін. Алгбр/ ОП. та АМ. ", callback_data='bad')
-            item6 = types.InlineKeyboardButton("-", callback_data='bad')
+            item6 = types.InlineKeyboardButton("-",callback_data='bad')
             item7 = types.InlineKeyboardButton("3             ", callback_data='3')
-            item8 = types.InlineKeyboardButton("ОП. та АМ.", callback_data='bad')
+            item8 = types.InlineKeyboardButton("ОП. та АМ.", callback_data='op&am')
             item9 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/fraq6fp3ic?authuser=2&hs=179')
             item10 = types.InlineKeyboardButton("4             ", callback_data='4')
-            item11 = types.InlineKeyboardButton("Фіз-ра", callback_data='bad')
+            item11 = types.InlineKeyboardButton("Фіз-ра", callback_data='fizra')
             item12 = types.InlineKeyboardButton("-", callback_data='bad')
 
             markup.add(item1, item2, item3, item4, item5, item6,item7, item8, item9, item10, item11, item12)
@@ -73,16 +73,16 @@ def lalala(message):
 
             markup = types.InlineKeyboardMarkup(row_width=3)
             item1 = types.InlineKeyboardButton("1             ", callback_data='1')
-            item2 = types.InlineKeyboardButton("Укр.Літ", callback_data='bad')
+            item2 = types.InlineKeyboardButton("Укр.Літ", callback_data='lit')
             item3 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/cxvyd2ycgr?authuser=2&hs=179')
             item4 = types.InlineKeyboardButton("2             ", callback_data='2')
-            item5 = types.InlineKeyboardButton("Соціологія", callback_data='bad')
+            item5 = types.InlineKeyboardButton("Соціологія", callback_data='soci')
             item6 = types.InlineKeyboardButton("-", callback_data='bad')
             item7 = types.InlineKeyboardButton("3             ", callback_data='3')
-            item8 = types.InlineKeyboardButton("Право", callback_data='bad')
+            item8 = types.InlineKeyboardButton("Право", callback_data='pravo')
             item9 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/ellzuv5c3t?authuser=2&hs=179')
             item10 = types.InlineKeyboardButton("4             ", callback_data='4')
-            item11 = types.InlineKeyboardButton("Мат. Аналіз", callback_data='bad')
+            item11 = types.InlineKeyboardButton("Мат. Аналіз", callback_data='matan')
             item12 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/epvvrpika2?authuser=2&hs=179')
 
             markup.add(item1, item2, item3, item4, item5, item6,item7, item8, item9, item10, item11, item12)
@@ -92,16 +92,16 @@ def lalala(message):
 
             markup = types.InlineKeyboardMarkup(row_width=3)
             item1 = types.InlineKeyboardButton("1             ", callback_data='1')
-            item2 = types.InlineKeyboardButton("БЖД", callback_data='bad')
+            item2 = types.InlineKeyboardButton("БЖД", callback_data='BZD')
             item3 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/bixoqk2lcc?authuser=0&hs=179')
             item4 = types.InlineKeyboardButton("2             ", callback_data='2')
-            item5 = types.InlineKeyboardButton("Арх. Комп", callback_data='bad')
+            item5 = types.InlineKeyboardButton("Арх. Комп", callback_data='arch.comp')
             item6 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/gyb2qhu7s2?authuser=2&hs=179')
             item7 = types.InlineKeyboardButton("3             ", callback_data='3')
             item8 = types.InlineKeyboardButton("Арх. Комп/ Фізика", callback_data='bad')
             item9 = types.InlineKeyboardButton("-", callback_data='bad')
             item10 = types.InlineKeyboardButton("4             ", callback_data='4')
-            item11 = types.InlineKeyboardButton("Фізика", callback_data='bad')
+            item11 = types.InlineKeyboardButton("Фізика", callback_data='fizika')
             item12 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/vbi-sovd-gcn')
 
             markup.add(item1, item2, item3, item4, item5, item6,item7, item8, item9, item10, item11, item12)
@@ -111,10 +111,10 @@ def lalala(message):
 
             markup = types.InlineKeyboardMarkup(row_width=3)
             item1 = types.InlineKeyboardButton("1             ", callback_data='1')
-            item2 = types.InlineKeyboardButton("Англ.Мова", callback_data='bad')
+            item2 = types.InlineKeyboardButton("Англ.Мова", callback_data='angl')
             item3 = types.InlineKeyboardButton("-", callback_data='bad')
             item4 = types.InlineKeyboardButton("2             ", callback_data='2')
-            item5 = types.InlineKeyboardButton("Укр.Мова", callback_data='bad')
+            item5 = types.InlineKeyboardButton("Укр.Мова", callback_data='mova')
             item6 = types.InlineKeyboardButton(text='Meet', url='https://meet.google.com/lookup/ggwrg5pegw?authuser=2&hs=179')
             # item7 = types.InlineKeyboardButton("3             ", callback_data='3')
             # item8 = types.InlineKeyboardButton("Захист Віт.", callback_data='bad')
@@ -147,9 +147,44 @@ def callback_inline(call):
             elif call.data == '6':
                 bot.answer_callback_query(callback_query_id=call.id, show_alert=False, text='VI пара:  16:20—17:40')              
             elif call.data == '7':
-                bot.answer_callback_query(callback_query_id=call.id, show_alert=False, text='VII пара:  17:50—19:10')  
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=False, text='VII пара:  17:50—19:10')
+            
+            elif call.data == 'PZ':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='==========Осн.інжен.ПЗ===========\nВчитель: Апенько Наталія Вікторівна')
+            elif call.data == 'matan':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='===========Мат. Аналіз===========\nВчитель: Таращенко Людмила Анатоліївна')
+            elif call.data == 'linalg':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='===========Лін. Алгебра==========\nВчитель: Таращенко Людмила Анатоліївна')                                
+            elif call.data == 'matan':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='===========Мат. Аналіз===========\nВчитель: Таращенко Людмила Анатоліївна')
+            elif call.data == 'linalg':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='===========Лін. Алгебра==========\nВчитель: Таращенко Людмила Анатоліївна') 
+            elif call.data == 'mat':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='===========Математика===========\nВчитель: Шкарін Олександр Олександрович')
+            elif call.data == 'lit':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='=============Укр.Літ============\nВчитель: Роман Ткаченко Петрович')
+            elif call.data == 'mova':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='============Укр.Мова============\nВчитель: Максимчук Віра Борисівна')
+            elif call.data == 'soci':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='===========Соціологія===========\nВчитель: Кривчиков Олег Володимирович')
+            elif call.data == 'pravo':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='==============Право=============\nВчитель: Писарчук Валентина')
+            elif call.data == 'BZD':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='===============БЖД==============\nВчитель: Ковальчук Наталія')
+            elif call.data == 'arch.comp':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='============Арх.Комп============\nВчитель: Нечипурук Олена Володимирівна')
+            elif call.data == 'fizika':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='=============Фізика=============\nВчитель: Кушнірова Марія Дмитрівна ')
+            elif call.data == 'angl':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='============Англ.Мова===========\nВчитель1: Миголь Валентина Миколаївна\n\nВчитель2: Горобець Людмила')                
+            elif call.data == 'fizra':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='==============Фіз-ра============\nВчитель: Ірина Бистріцька')
+            elif call.data == 'op&am':
+                bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='===========Оп. та Ам.===========\nВчитель: Краліна Ганна ')                      
+
+
             elif call.data == 'bad':
-            	bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text="Данная функция пока не реализована🙁")
+            	bot.answer_callback_query(callback_query_id=call.id, show_alert=False, text=" ")
             	
     except Exception as e:
         print(repr(e))
