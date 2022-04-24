@@ -109,10 +109,10 @@ def lalala(message):
             markup = types.InlineKeyboardMarkup(row_width=3)
             item1 = types.InlineKeyboardButton("1             ", callback_data='1')
             item2 = types.InlineKeyboardButton("Дискр.математ", callback_data='duskrmat')
-            item3 = types.InlineKeyboardButton(text='Meet', url=' ')
+            item3 = types.InlineKeyboardButton(text='Meet', url='http://example.com/')
             item4 = types.InlineKeyboardButton("2             ", callback_data='2')
             item5 = types.InlineKeyboardButton("Дискр.математ", callback_data='duskrmat')
-            item6 = types.InlineKeyboardButton(text='Meet', url=' ')
+            item6 = types.InlineKeyboardButton(text='Meet', url='http://example.com/')
 
             markup.add(item1, item2, item3, item4, item5, item6)
             bot.send_message(message.chat.id, "Розклад на п'ятницю:", reply_markup=markup)      
