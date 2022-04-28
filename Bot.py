@@ -40,7 +40,7 @@ def lalala(message):
             item6 = types.InlineKeyboardButton(text='Meet', url='http://example.com/')
             item7 = types.InlineKeyboardButton("3             ", callback_data='3')
             item8 = types.InlineKeyboardButton("Англ.Мова/ ОП. та АМ.", callback_data='angl/op')
-            item9 = types.InlineKeyboardButton("-", callback_data='bad')
+            item9 = types.InlineKeyboardButton("Meet", callback_data='angl/op_meet')
             item10 = types.InlineKeyboardButton("4             ", callback_data='4')
             item11 = types.InlineKeyboardButton("ОП. та АМ.", callback_data='op&am')
             item12 = types.InlineKeyboardButton(text='Meet', url='http://example.com/')
@@ -55,7 +55,7 @@ def lalala(message):
             markup = types.InlineKeyboardMarkup(row_width=3)
             item1 = types.InlineKeyboardButton("1             ", callback_data='1')
             item2 = types.InlineKeyboardButton("Англ.Мова", callback_data='angl')
-            item3 = types.InlineKeyboardButton(text='Meet', url='http://example.com/')
+            item3 = types.InlineKeyboardButton("Meet", callback_data='angl_meet')
             item4 = types.InlineKeyboardButton("2             ", callback_data='2')
             item5 = types.InlineKeyboardButton("Маркетинг", callback_data='market')
             item6 = types.InlineKeyboardButton(text='Meet', url='http://example.com/')
@@ -95,7 +95,7 @@ def lalala(message):
             item6 = types.InlineKeyboardButton(text='Meet', url='http://example.com/')
             item7 = types.InlineKeyboardButton("3             ", callback_data='3')
             item8 = types.InlineKeyboardButton("Фіз-ра", callback_data='fizra')
-            item9 = types.InlineKeyboardButton("Class", callback_data='bad')
+            item9 = types.InlineKeyboardButton(text="Class", url='http://example.com/')
             item10 = types.InlineKeyboardButton("4             ", callback_data='4')
             item11 = types.InlineKeyboardButton("Пусто/ Укр.Мова", callback_data='mova')
             item12 = types.InlineKeyboardButton(text='Meet', url='http://example.com/')
@@ -177,6 +177,24 @@ def callback_inline(call):
                 bot.answer_callback_query(callback_query_id=call.id, show_alert=True, text='Осн. менедж.та маркетин. \nВчитель: Шмалько Ілона Артурівна')                                  
 
 
+            elif call.data == 'angl_meet':
+                markup = types.InlineKeyboardMarkup(row_width=2)
+                item1 = types.InlineKeyboardButton(text='1-ша группа', url='http://example.com/')
+                item2 = types.InlineKeyboardButton(text='2-га группа', url='http://example.com/')
+                markup.add(item1, item2)
+                bot.send_message(call.message.chat.id, 'Англ.Мова Meet', reply_markup=markup)
+                
+                
+            elif call.data == 'angl/op_meet':
+                markup = types.InlineKeyboardMarkup(row_width=2)
+                item1 = types.InlineKeyboardButton(text='1-ша группа', url='http://example.com/')
+                item2 = types.InlineKeyboardButton(text='2-га группа', url='http://example.com/')
+                item3 = types.InlineKeyboardButton(text='ОП. та АМ. Meet', url='http://example.com/')
+                markup.add(item1, item2)
+                markup.add(item3)
+                bot.send_message(call.message.chat.id, 'Англ.Мова/ ОП. та АМ. Meet:', reply_markup=markup)
+                
+                
             elif call.data == 'bad':
                 bot.answer_callback_query(callback_query_id=call.id, show_alert=False, text=" ")
                 
