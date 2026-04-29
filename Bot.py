@@ -1,3 +1,6 @@
+import logging
+logging.basicConfig(level=logging.INFO)
+
 import telebot
 import config
 import random
