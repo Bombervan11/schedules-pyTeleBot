@@ -29,6 +29,6 @@ input()
 
 while (True):
     x = x + 1
-    print('Launching №',(x))
+    print('Launching №', (x))
     process = subprocess.Popen([sys.executable, "Bot.py"])
     process.wait()
